@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+html ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #3c3c3c;
+  }
+  
+  html ::-webkit-scrollbar-track {
+    background: rgba(128, 128, 128, 0.504);
+  }
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #6B728E;
+
+}
+
+.barraNavHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100vw;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 29px;
+    letter-spacing: 0.7px;
+}
+
+.linkHeader a {
+    margin-right: 30px;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.linkHeader a:hover {
+    color: #C1E95D;
+}
+
+.iconsHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconsHeader img {
+    margin-right: 20px;
+    width: 30px;
+}
+
+.btnDarkMode {
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+.btnDarkMode img {
+    width: 20px;
+}
+
+/* HOME */
+
+.home {
+    
+    background-color: #1F1F1F;
+}
+
+.container-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+}
+
+.container-home p {
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    line-height: 30px;
+}
+
+.btnHome {
+    margin-top: 10px;
+}
+
+.btnHome a {
+    color: #fff;
+    letter-spacing: 0.8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #333333;
+    padding: 10px 25px;
+    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: 0.2s;
+}
+
+.btnHome a:hover {
+    color: #000;
+    font-weight: bold;
+}
+
+.btnHome a img {
+    width: 24px;
+    color: #fff;
+}
+
+
+/* CARDS */
+.containerCards {
+    height: 80vh;
+
+    background-color: #6B728E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.titleCard {
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.flexCards {
+    display: flex;
+    gap: 30px;
+}
+
+.cards {
+    width: 430px;
+    height: 330px;
+    text-align: justify;
+    padding: 20px;
+
+    background-color: #1F1F1F;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* PORTFOLIO */
+.portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+    background-color: #141414;
+    padding: 50px;
+}
+
+.titlePortfolio h1 {
+    font-size: 33px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.flexCardPortfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.portfolioCard {
+    padding: 20px 40px;
+    background-color: #1F1F1F;
+    border-radius: 7px;
+    transition: 0.2s;
+}
+
+.portfolioCard:hover {
+    background-color: #373737a5;
+}
+
+.imgPortfolio {
+    width: 300px;
+    border-radius: 7px;
+}
+
+.infoCardPortfolio {
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.iconPortfolio {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.iconPortfolio img {
+    width: 30px;
+}
+
+.viewProject {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.viewProject a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* CONTACT */
+.contact {
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+}
+
+.titleContact h1 {
+    color: #fff;
+    font-size: 33px;
+    letter-spacing: 1px;
+}
+
+.form {
+    background-color: #1F1F1F;
+    width: 600px;
+    height: 500px;
+    border-radius: 4px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form input {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid transparent;
+    background-color: #333333;
+    color: #fff;
+}
+
+.form input:focus {
+    border: 1px solid #ffffff29;
+}
+
+.form textarea {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #333333;
+    border: transparent;
+    outline: none;
+    color: #fff;
+}
+
+.btnForm {
+    width: 400px;
+    height: 40px;
+    font-size: 19px;
+    background-color: #C1E95D;
+    border-radius: 4px;
+    border: transparent;
+    font-weight: bold;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.btnForm:hover {
+    background-color: #3c3c3c;
+    color: #fff;
+
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: #141414;
+}
+
+.logoFooter h1 {
+    font-size: 29px;
+    color: #fff;
+}
+
+
+.titleFooterLinks h1 {
+    color: #fff;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+
+
+.linksFooter a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.linksFooter a:hover {
+    color: #C1E95D;
+}
+
+.redesSocialFooter {
+    display: flex;
+    gap: 20px;
+}
+
+.redesSocialFooter a img {
+    width: 30px;
+}
+
+.footerEnd {
+    padding: 20px;
+    background-color: #1F1F1F;
+    color: #fff;
+    text-align: center;
+}
+
+.footerEnd p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footerEnd p a:hover {
+    color: #C1E95D;
+    text-decoration: none;
+}
